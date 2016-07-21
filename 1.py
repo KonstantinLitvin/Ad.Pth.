@@ -1,5 +1,4 @@
 __author__ = 'KonstantinLitvin'
 
 
-
-print('Hello')
+print('Hello World')
