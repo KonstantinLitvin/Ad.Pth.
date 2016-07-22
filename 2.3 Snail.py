@@ -1,14 +1,12 @@
 __author__ = 'KonstantinLitvin'
 
+import math
+
 H = int(input())
 A = int(input())
 B = int(input())
 
-fullDay = A - B
+x = math.ceil((H - B) / (A - B))
 
-x = H // fullDay
+print(x)
 
-#if H == x:
-#    print(x - B)
-#else:
-#    print(x - B + 1)
