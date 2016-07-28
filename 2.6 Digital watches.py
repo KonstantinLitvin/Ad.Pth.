@@ -1,6 +1,9 @@
-import datetime
-
 __author__ = 'KonstantinLitvin'
 
+N = int(input())
 
-print( datetime.time(1,2,3))
+numberOfMinutes, seconds = divmod(N, 60)
+numberOfHours, minutes = divmod(numberOfMinutes, 60)
+numberOfDays, hours = divmod(numberOfHours, 24)
+
+print("%d:%02d:%02d" % (hours, minutes, seconds))
