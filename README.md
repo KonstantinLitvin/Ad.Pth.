@@ -1,2 +1,1 @@
-# Ad.Pth.
-Adaptive problem set to learn Python
+# Adaptive problem set to learn Python
